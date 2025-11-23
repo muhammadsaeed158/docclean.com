@@ -1,0 +1,48 @@
+# --- Node ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Next.js ---
+.next/
+out/
+dist/
+
+# --- Environment Variables ---
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# --- Firebase ---
+.firebase/
+firestore-debug.log
+ui-debug.log
+
+# --- Cloudinary Keys (Never upload your secrets) ---
+cloudinary.env
+
+# --- Logs ---
+logs/
+*.log
+logs/**/*.log
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- Acode / Termux temp files ---
+*.swp
+*.tmp
+
+# --- Build Cache ---
+.cache/
+.vercel/
+
+# --- Misc ---
+coverage/
+*.pid
+*.seed
+*.tgz
